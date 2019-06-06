@@ -1,0 +1,54 @@
+
+body {
+    background: url("imagens/cadastro/background.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 60%;
+}
+
+img.promocoes{
+    width: 70% !important;
+    height: 80% !important;
+}
+
+#logo{
+    display: flex;
+    padding: 10px;
+}
+
+#confira{
+    padding: 10px;
+    height: 50% !important;
+}
+#cadastro{
+    margin-left: 15%;
+    padding: 15px;
+}
+
+input.transparent-input{
+    background-color:transparent !important;
+    font-size: 8px;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+button.btn-custom{
+    margin-left: -20px;
+}
+
+#novos{
+    padding: 15px;
+}
+
+#clientes{
+    padding: 15px;
+}

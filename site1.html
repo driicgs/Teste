@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilosSite1.css">
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <title>ASSIM</title>
+
+    <script language="javascript">
+        function mostrarOfertas(id) {
+            var div = document.getElementById(id);
+            div.style.display = 'block';
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <img class="logo img-fluid" src="imagens/site1/logo.png">
+
+        <img class="titulobf img-fluid" src="imagens/site1/titulobf.png">
+        </br>
+
+        <div id="cadastro1">
+            <div class="form-group">
+                <p><a href="index.html"><b>CADASTRE-SE </b></a>para não perder nossas
+                    ofertas especiais. Em breve entraremos
+                    em contato com você.</p>
+            </div>
+            <div class="form-group">
+                <button id="Clique" type="button" class="btn btn-lg button-custom" onclick="mostrarOfertas('ofertas')">
+                    <b>VEJA AS OFERTAS</b>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="ofertas" class="container-fluid">
+
+        <img class="img-fluid" src="imagens/site1/ofertas.png">
+
+    </div>
+</body>
+
+</html>

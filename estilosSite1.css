@@ -1,0 +1,46 @@
+
+body {
+    background: url("imagens/site1/background.png") no-repeat fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100% \9;
+    height: auto;
+}
+
+img.logo{
+    margin-top: 6%;
+}
+
+#cadastro1{
+    margin-left: 20%;
+    max-width: 18rem;
+}
+
+p{
+    color: #FFF;
+    text-align: justify;
+}
+
+b{
+    color: #f48120;
+    font-size: 18px;
+}
+
+button.button-custom{
+    color: transparent;
+    border: 1px solid #f48120;
+    text-align: center;
+    font-size:14px;
+    width:100%;
+}
+
+#ofertas{
+    display: none;
+}
+
